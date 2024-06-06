@@ -95,7 +95,7 @@ const Reviews = () => {
   return (
     <Section>
       <Title>Customer Reviews</Title>
-      <Description>Our customers love Crest for its ease of use, powerful features, and excellent customer support. See what they have to say about how Crest has helped their businesses thrive.</Description>
+      <Description>Our customers love Clever Books for its ease of use, powerful features, and excellent customer support. See what they have to say about Clever Books.</Description>
       <Swiper
         grabCursor={true}
         effect={'creative'}
