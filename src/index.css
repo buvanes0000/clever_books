@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #a4445c;
+  color: #fcd4c4;
+
+  font-family: "Ubuntu Sans Mono", monospace;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.swiper {
+
+  border-radius: 10px 10px 20px 20px;
+  width: 320px;
+  height: 340px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+
+  font-weight: bold;
+
+}
+
+.swiper-slide:nth-child(odd) {
+  background-color:    #bb565d;
+  color: #5d1018;
+}
+
+.swiper-slide:nth-child(even) {
+  background-color: #c4948c;
+  color:#935155;
+}
+
